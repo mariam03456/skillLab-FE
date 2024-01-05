@@ -1,53 +1,72 @@
+# SkillLab: E-commerce Platform for Courses
+
+SkillLab is an innovative e-commerce web application tailored to provide a diverse array of courses. Users can seamlessly navigate through different course categories, add courses to their cart, and enroll without schedule conflicts. Admin users have the authority to manage categories, courses, and associated category images. Below, you'll find an overview of the primary features and technologies utilized in SkillLab:
+
+## Key Features
+
+### User Interface
+- Explore diverse course categories and available courses within each category.
+- Add multiple courses to the cart.
+- Enroll in courses without conflicting schedules.
+- Effortlessly edit personal profile details.
+
+### Admin Control
+- Create, edit, and remove course categories and individual courses.
+- Utilize Multer to upload and manage category images for an enriched visual experience.
+
+### Cart Functionality
+- Intuitive cart system for adding and managing courses.
+- Calculation of the total cost of selected courses at checkout.
+- Confirmation page before finalizing course enrollment.
+- Prevention of adding duplicate courses to the cart.
+
+## Backend Dependencies
+
+- **bcrypt**: Secure password hashing for enhanced data protection.
+- **dayjs**: Efficient date and time manipulation library.
+- **dotenv**: Simplified management of environment variables.
+- **express**: Empowers the backend with the Node.js framework.
+- **express-ejs-layouts**: Streamlined layout support for Express.
+- **jsonwebtoken**: Implementation of JSON Web Tokens for user authentication.
+- **jwt-decode**: Decoding of JWT tokens on the server-side.
+- **method-override**: Middleware for HTTP method overriding.
+- **mongoose**: Robust MongoDB object modeling.
+- **multer**: Streamlining file uploads, particularly for images.
+
+## Frontend Technologies
+
+- **axios**: Facilitates HTTP requests for browser and Node.js.
+- **bootstrap**: Comprehensive UI framework ensuring responsive design.
+- **bootstrap-icons**: Extensive library for seamless icon integration.
+- **jwt-decode**: Aids in decoding JWT tokens on the client-side.
+- **react**: Dynamic library for crafting user interfaces.
+- **react-bootstrap**: React components aligned with Bootstrap standards.
+- **react-dom**: Smooth integration of React elements into the DOM.
+- **react-modal**: Provides an accessible modal dialog component for React.
+- **react-router-dom**: Enables efficient routing in React applications.
+- **react-scripts**: Configures and provides scripts for React applications.
+- **web-vitals**: Measures and reports web performance metrics.
+
 ## Entity-Relationship Diagram (ERD)
-![ERD Diagram](https://files.slack.com/files-pri/T03JBCX8WE7-F06CE5MGBTM/2024-01-04_11_50_44-skilllab.drawio_-_draw.io.png)
 
-# Learning Platform Application
-This application serves as an online learning platform that provides functionalities for two types of users - User and Admin. It enables users to browse, enroll in courses, manage their cart, make transactions, edit profiles, while also offering administrative capabilities for managing categories and courses.
+Add a description or link to the ERD used in SkillLab's database structure.
+![ERD Example](/path/to/your/ERD/image.png)
 
-# User Features
-User Types
-- User: Can browse categories and enroll in courses, manage cart, view transactions, edit profile.
-- Admin: In addition to user features, Admin has additional privileges to manage categories and courses.
-  
-# User Functionalities
-Browse Categories: Users can explore different categories available.
-Enroll in Courses: Within each category, users can enroll in a single course at a time.
-Cart Management: Users can add/remove courses to/from the cart.
-Proceed to Transactions: Users can confirm enrollment by proceeding to transactions.
-View Transactions: Users can view their transaction history/orders.
-Edit Profile: Users have access to their profile and can make edits to it.
-# Admin Features
-Admin Functionalities
-Add Categories: Admin can add new categories.
-Add/Edit/Delete Courses: Admin has the authority to add, edit, and delete courses.
-Edit/Delete Categories: Admin can manage categories by editing or deleting them.
-# Technology Stack
-Frontend: [Specify Frontend Technology/Framework]
-Backend: [Specify Backend Technology/Framework]
-Database: [Specify Database Used]
-# Setup Instructions
-Clone the repository.
-Install dependencies for frontend and backend.
-Configure the database.
-Run the application.
+## Wireframes
 
-# Project Structure
-frontend/: Contains frontend code.
-backend/: Contains backend code.
-database/: Includes database schema and setup scripts.
+Add a description or links to wireframes used in SkillLab's design process.
+![Wireframe 1](/path/to/your/wireframe1.png)
+Description of Wireframe 1.
 
-# Usage Guide
-Start the application.
-Access the application through the provided URL.
-Users can sign in as either User or Admin.
-User functionalities are accessible from the user dashboard.
-Admin functionalities are accessible from the admin panel.
-Users can navigate through categories, courses, cart, transactions, and profile sections based on their type.
+![Wireframe 2](/path/to/your/wireframe2.png)
+Description of Wireframe 2.
 
-# Development Roadmap
-Implement additional features such as course ratings, reviews, advanced user analytics.
-Enhance the admin panel with statistical insights and easier management tools.
-Improve the user interface and overall user experience.
+## Getting Started
 
+- Clone the SkillLab repository to your local environment.
+- Install required dependencies using `npm install`.
+- Start the application by running `npm start`.
 
+## Important
 
+Ensure compliance with the licensing terms and conditions associated with the third-party libraries and packages used in this project.
