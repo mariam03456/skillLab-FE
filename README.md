@@ -67,6 +67,4 @@ Description of Wireframe 2.
 - Install required dependencies using `npm install`.
 - Start the application by running `npm start`.
 
-## Important
 
-Ensure compliance with the licensing terms and conditions associated with the third-party libraries and packages used in this project.
