@@ -32,8 +32,8 @@ SkillLab is an innovative e-commerce web application tailored to provide a diver
 
 ## Admin Functionality
 1. **As an Administrator,**
-   - I want to add new courses to the marketplace, providing comprehensive details, setting prices, and assigning relevant categories.
-   - *Objective:* Expand the course offerings and maintain a diverse marketplace.
+   - I want to add new courses, provide comprehensive details, setting prices, and assigning relevant categories.
+   - *Objective:* Expand the course offerings and maintain diversity.
 
 2. **As an Administrator,**
    - I aim to ensure authorized access during user sign-up, log-in, and log-out processes.
