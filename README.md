@@ -1,6 +1,6 @@
 # SkillLab: E-commerce Platform for Courses
 
-SkillLab is an innovative e-commerce web application tailored to provide a diverse array of courses. Users can seamlessly navigate through different course categories, add courses to their cart, and enroll without schedule conflicts. Admin users have the authority to manage categories, courses, and associated category images. Below, you'll find an overview of the primary features and technologies utilized in SkillLab:
+SkillLab is an innovative e-commerce web application tailored to provide a diverse array of courses. Users can seamlessly navigate through different course categories, add courses to their cart, and enroll without schedule conflicts. Admin users have the authority to manage categories, courses, and associated category images. Below, you'll find an overview of the primary features and technologies utilized in SkillLab.
 
 ## Entity-Relationship Diagram (ERD)
 
@@ -24,13 +24,50 @@ SkillLab is an innovative e-commerce web application tailored to provide a diver
 ![Wireframe 2](https://i.imgur.com/M4HwSPJ.png)
 
 
-
-
-
 ## Trello Link
 [Trello Board](https://trello.com/b/wOMz7tZ5/sei7-project-3)
 
 
+# User Stories
+
+## Admin Functionality
+1. **As an Administrator,**
+   - I want to add new courses to the marketplace, providing comprehensive details, setting prices, and assigning relevant categories.
+   - *Objective:* Expand the course offerings and maintain a diverse marketplace.
+
+2. **As an Administrator,**
+   - I aim to ensure authorized access during user sign-up, log-in, and log-out processes.
+   - *Objective:* Uphold security measures for user accounts.
+
+## User Experience
+3. **As a User,**
+   - I seek a seamless browsing experience without page refresh when interacting with forms or other elements.
+   - *Objective:* Enhance user interaction without interruptions.
+
+4. **As a Visitor,**
+   - I desire a user-friendly interface to easily comprehend the website's purpose and details.
+   - *Objective:* Provide intuitive navigation for new visitors.
+
+5. **As a User,**
+   - I aim to effortlessly browse and search courses by category, facilitating the discovery of courses aligned with my interests.
+   - *Objective:* Facilitate easy exploration based on user preferences.
+
+6. **As a User,**
+   - I wish to manage courses in my cart, including the option to remove items as necessary, maintaining control over my shopping experience.
+   - *Objective:* Grant users flexibility and control in their cart management.
+
+7. **As a User,**
+   - I intend to add courses to my cart, simplifying the process of tracking and managing desired courses.
+   - *Objective:* Enable efficient tracking of preferred courses for potential purchase.
+
+8. **As a User,**
+   - I seek comprehensive course details such as title, description, price, and instructor information to make informed decisions regarding enrollment.
+   - *Objective:* Provide necessary information for informed course selection.
+
+## Administrator Account Management
+9. **As an Administrator,**
+   - I need access to view and manage user accounts, including user information, to offer support and ensure a seamless user experience.
+   - *Objective:* Facilitate user management for improved support and experience.
 
 
 ## Key Features
