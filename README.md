@@ -2,6 +2,37 @@
 
 SkillLab is an innovative e-commerce web application tailored to provide a diverse array of courses. Users can seamlessly navigate through different course categories, add courses to their cart, and enroll without schedule conflicts. Admin users have the authority to manage categories, courses, and associated category images. Below, you'll find an overview of the primary features and technologies utilized in SkillLab:
 
+## Entity-Relationship Diagram (ERD)
+
+![ERD Example](https://i.imgur.com/aKDpUTr.png)
+
+## Wireframes
+
+
+![Wireframe 1](https://i.imgur.com/rmWeTWl.png)
+
+
+![Wireframe 2](https://i.imgur.com/wqIFSmy.png)
+
+
+![Wireframe 2](https://i.imgur.com/4wRpTLk.png)
+
+
+![Wireframe 2](https://i.imgur.com/vZj8hxb.png)
+
+
+![Wireframe 2](https://i.imgur.com/M4HwSPJ.png)
+
+
+
+
+
+## Trello Link
+[Trello Board](https://trello.com/b/wOMz7tZ5/sei7-project-3)
+
+
+
+
 ## Key Features
 
 ### User Interface
@@ -20,6 +51,13 @@ SkillLab is an innovative e-commerce web application tailored to provide a diver
 - Confirmation page before finalizing course enrollment.
 - Prevention of adding duplicate courses to the cart.
 
+## Technologies Used:
+- Nodejs
+- Express
+- MongoDB
+- React
+- Bootstrap
+
 ## Backend Dependencies
 
 - **bcrypt**: Secure password hashing for enhanced data protection.
@@ -33,7 +71,7 @@ SkillLab is an innovative e-commerce web application tailored to provide a diver
 - **mongoose**: Robust MongoDB object modeling.
 - **multer**: Streamlining file uploads, particularly for images.
 
-## Frontend Technologies
+## Frontend Dependencies
 
 - **axios**: Facilitates HTTP requests for browser and Node.js.
 - **bootstrap**: Comprehensive UI framework ensuring responsive design.
@@ -47,19 +85,6 @@ SkillLab is an innovative e-commerce web application tailored to provide a diver
 - **react-scripts**: Configures and provides scripts for React applications.
 - **web-vitals**: Measures and reports web performance metrics.
 
-## Entity-Relationship Diagram (ERD)
-
-Add a description or link to the ERD used in SkillLab's database structure.
-![ERD Example](/path/to/your/ERD/image.png)
-
-## Wireframes
-
-Add a description or links to wireframes used in SkillLab's design process.
-![Wireframe 1](/path/to/your/wireframe1.png)
-Description of Wireframe 1.
-
-![Wireframe 2](/path/to/your/wireframe2.png)
-Description of Wireframe 2.
 
 ## Getting Started
 
